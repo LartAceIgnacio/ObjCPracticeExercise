@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BMI3' target in the 'BMI3' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

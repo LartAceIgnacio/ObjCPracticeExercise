@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844060AF189617AC00605494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844060AE189617AC00605494 /* Foundation.framework */; };
+		844060B2189617AC00605494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844060B1189617AC00605494 /* main.m */; };
+		844060B6189617AC00605494 /* ArrayTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 844060B5189617AC00605494 /* ArrayTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		844060A9189617AC00605494 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				844060B6189617AC00605494 /* ArrayTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		844060AB189617AC00605494 /* ArrayTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844060AE189617AC00605494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		844060B1189617AC00605494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844060B4189617AC00605494 /* ArrayTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArrayTest-Prefix.pch"; sourceTree = "<group>"; };
+		844060B5189617AC00605494 /* ArrayTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArrayTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844060A8189617AC00605494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844060AF189617AC00605494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844060A2189617AC00605494 = {
+			isa = PBXGroup;
+			children = (
+				844060B0189617AC00605494 /* ArrayTest */,
+				844060AD189617AC00605494 /* Frameworks */,
+				844060AC189617AC00605494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844060AC189617AC00605494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844060AB189617AC00605494 /* ArrayTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844060AD189617AC00605494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844060AE189617AC00605494 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844060B0189617AC00605494 /* ArrayTest */ = {
+			isa = PBXGroup;
+			children = (
+				844060B1189617AC00605494 /* main.m */,
+				844060B5189617AC00605494 /* ArrayTest.1 */,
+				844060B3189617AC00605494 /* Supporting Files */,
+			);
+			path = ArrayTest;
+			sourceTree = "<group>";
+		};
+		844060B3189617AC00605494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844060B4189617AC00605494 /* ArrayTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844060AA189617AC00605494 /* ArrayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844060B9189617AC00605494 /* Build configuration list for PBXNativeTarget "ArrayTest" */;
+			buildPhases = (
+				844060A7189617AC00605494 /* Sources */,
+				844060A8189617AC00605494 /* Frameworks */,
+				844060A9189617AC00605494 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArrayTest;
+			productName = ArrayTest;
+			productReference = 844060AB189617AC00605494 /* ArrayTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844060A3189617AC00605494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ace Ignacio";
+			};
+			buildConfigurationList = 844060A6189617AC00605494 /* Build configuration list for PBXProject "ArrayTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 844060A2189617AC00605494;
+			productRefGroup = 844060AC189617AC00605494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844060AA189617AC00605494 /* ArrayTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844060A7189617AC00605494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844060B2189617AC00605494 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		844060B7189617AC00605494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		844060B8189617AC00605494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		844060BA189617AC00605494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArrayTest/ArrayTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844060BB189617AC00605494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArrayTest/ArrayTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844060A6189617AC00605494 /* Build configuration list for PBXProject "ArrayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844060B7189617AC00605494 /* Debug */,
+				844060B8189617AC00605494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844060B9189617AC00605494 /* Build configuration list for PBXNativeTarget "ArrayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844060BA189617AC00605494 /* Debug */,
+				844060BB189617AC00605494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844060A3189617AC00605494 /* Project object */;
+}

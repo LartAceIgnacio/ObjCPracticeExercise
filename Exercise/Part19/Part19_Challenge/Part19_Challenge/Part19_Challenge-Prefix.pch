@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Part19_Challenge' target in the 'Part19_Challenge' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSString Equal' target in the 'NSString Equal' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
